@@ -7,7 +7,62 @@ header{
     display: inline-block;
     width: 100%;
 }
+header > img {
+    display: inline-block;
+    width: 100%;
+    float: right;
+    
+}
+nav {
+    display: inline-block;
+    float: right;
+
+}
+a{
+     display:inline-block;
+      float: left;
+      list-style: height 20px;
+    margin-top: 15px ;
+    margin-left: 15px;
+        padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-radius: 25%;
+    color: #bbbbbb;
+    font-size: 18px;
+}
+a:nth-of-type(5){
+    border: 5px solid coral;
+    margin-top: 5px;
+    border-radius: 20px;
+
 main{
     display: inline-block;
     width: 100%;
+    float: left;
+    margin-top: 20px
+}
+
+main > div {
+    display:inline-block;
+    float: left;
+    width: 45%;
+
+}
+h1 {
+    display: inline-block;
+    font-size: 100px;
+    margin: 0%;
+
+}
+p {
+    display: inline-block;
+    font-size: 30px;
+}
+main > img {
+    display: inline-block;
+    width: 45%;
+    float: right;
+
 }
